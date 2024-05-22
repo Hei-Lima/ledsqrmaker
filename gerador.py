@@ -16,3 +16,4 @@ nulo = "99"
 #Parametros: tipo, sala, quantidade de números (indice começa em 1 e inclui o ultimo número).
 lista = geraQr(etc, slaveOne, 20)
 
+#lista = geraQrRatio(a, b, c, d, e)
