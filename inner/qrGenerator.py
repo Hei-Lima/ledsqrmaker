@@ -8,8 +8,8 @@ from colorama import Fore
 init()
 
 #Fontes, estão armazenadas em media.
-courier = ImageFont.truetype('inner\media\CourierPrime-BoldItalic.ttf', 80)
-montserrat = ImageFont.truetype('inner\media\Montserrat-Medium.ttf', 16)
+azret = ImageFont.truetype('inner/media/Azret.ttf', 80)
+montserrat = ImageFont.truetype('inner/media/Montserrat.ttf', 16)
 
 #Gerador com Ratio. A lógica está errada, mas decidi não usar essa opção. Sinta-se livre para futucar.
 def geradorRatio(tipo, sala1, sala2, ratio, numero):
@@ -51,10 +51,9 @@ def geraQr(a, b, c):
     for i in lista:
         background = Image.new('RGBA', (600, 600), (12, 27, 84, 255))
         draw = ImageDraw.Draw(background)
-        draw.text((600//2, 20), "NÃO RETIRAR", (255,255,255), anchor="mm", font=montserrat)
-        draw.text((600//2, 65),f"{i}", (255,255,255), anchor="mm", font=courier)
+        draw.text((600//2, 50),f"{i}", (255,255,255), anchor="mm", font=azret)
         qr = Image.open(f'inner/qr/{i}.png')
         background.paste(qr, (97, 97))
-        logo = Image.open('inner\media\ledslogo.png')
+        logo = Image.open('inner/media/ledslogo.png')
         background.paste(logo, (225, 525))
         background.save(f'png/{i}.png')
