@@ -6,6 +6,7 @@
 ## Pré-requisitos
 
 Antes de começar, baixe as seguintes libs:
+(ou use os requirements em um ENV)
 
 - **QR Code**
 usado para, pasmem, criar QR Codes:
