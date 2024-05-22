@@ -56,4 +56,5 @@ geraQr(TIPO_DE_EQUIPAMENTO, SALA1_DO_LEDS, SALA2_DO_LEDS, RATIO, QUANTIDADE)
 
 #### O output das imagens completas será em PNG e pode ser encontrado na pasta png na raiz do projeto. Os Qr Codes podem ser encontrados em inner/qr.
 
+OBS: Lembre-se de limpar o lixo em /qr. Manti pois achei que só os QRs podem ser utéis em algum momento.
 Para mais informações, leia o código, que está comentado. As funções estão localizadas em `inner/qrGenerator.py`
