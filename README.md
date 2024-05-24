@@ -1,5 +1,6 @@
 # LEDS QR MAKER
 
+*Depois de gerar os QRs, vá para [howto.md](howto.md) para aprender a gerar os PDFs para impressão"
 
 > Faça os adesivos de controle de ativos do LEDS de forma dinâmica e simples em Python!
 
